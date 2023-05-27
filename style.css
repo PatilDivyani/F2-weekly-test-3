@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+}
+body{
+    position: absolute;
+    width: 2342px;
+    height: 1548px;
+    
+    background: #1A1A1C; 
+    
+}
+
+button{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+    
+    
+    color: #FFFFFF;  
+    
+}
+
+label , button:first-child{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+    
+    
+    color: #FFFFFF;  
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 986px;
+    height: 79px;
+    top: 185px;
+    left: 434px;
+    background: #1A1A1C;
+    border: 2px solid #8E8E8E;
+    padding: 25px 646px 25px 31px;
+}
+input{
+    position: absolute;
+    width: 986px;
+    height: 79px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: none;
+    border: none;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+    
+    
+    color: #FFFFFF;  
+}
+#cap-btn{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 246px;
+    height: 79px;
+    left: 1445px;
+    top: 185px;
+    background: #1A1A1C;
+    border: 2px solid #8E8E8E;
+    padding: 25px 35px 25px 24px;
+}
+#percent-btn{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 246px;
+    height: 79px;
+    left: 1716px;
+    top: 185px;
+    background: #1A1A1C;
+    border: 2px solid #8E8E8E;
+    padding: 25px 14px 25px 13px;
+}
+#container{
+    position: absolute;
+    width: 1651px;
+    height: 1106px;
+    top: 264px;
+    left: 345px;
+    
+}
+
+table {
+    border-collapse: collapse;
+    width: 1528px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 29px;
+    /* identical to box height */
+  
+    color: #FFFFFF;  
+    margin: 30px 90px;
+  
+  }
+  
+  td {
+    text-align: left;
+    border-bottom: 2px solid #8E8E8E;
+    padding: 40px 20px;
+    
+  }
+  
+  td:first-child , td:nth-child(2){
+    padding: 20px;
+  }
+  td:nth-child(4) , td:nth-child(6){
+    text-align: right;
+  }
